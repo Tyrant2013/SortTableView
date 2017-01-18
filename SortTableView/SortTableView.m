@@ -66,7 +66,7 @@
             [self __endLongPressGesture];
             break;
         case UIGestureRecognizerStatePossible:
-            NSLog(@"possible");
+            NSLog(@"possible  ..");
             break;
         case UIGestureRecognizerStateCancelled:
             [self __endLongPressGesture];
