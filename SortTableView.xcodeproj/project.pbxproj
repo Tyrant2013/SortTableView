@@ -1,0 +1,545 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EBAABCD71E2F07D500391461 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAABCD61E2F07D500391461 /* main.m */; };
+		EBAABCDA1E2F07D500391461 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAABCD91E2F07D500391461 /* AppDelegate.m */; };
+		EBAABCDD1E2F07D500391461 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAABCDC1E2F07D500391461 /* ViewController.m */; };
+		EBAABCE01E2F07D500391461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAABCDE1E2F07D500391461 /* Main.storyboard */; };
+		EBAABCE21E2F07D500391461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EBAABCE11E2F07D500391461 /* Assets.xcassets */; };
+		EBAABCE51E2F07D500391461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EBAABCE31E2F07D500391461 /* LaunchScreen.storyboard */; };
+		EBAABCF01E2F07D500391461 /* SortTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAABCEF1E2F07D500391461 /* SortTableViewTests.m */; };
+		EBAABCFB1E2F07D500391461 /* SortTableViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAABCFA1E2F07D500391461 /* SortTableViewUITests.m */; };
+		EBAABD0A1E2F07EE00391461 /* SortTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = EBAABD091E2F07EE00391461 /* SortTableView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EBAABCEC1E2F07D500391461 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBAABCCA1E2F07D500391461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBAABCD11E2F07D500391461;
+			remoteInfo = SortTableView;
+		};
+		EBAABCF71E2F07D500391461 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EBAABCCA1E2F07D500391461 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBAABCD11E2F07D500391461;
+			remoteInfo = SortTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EBAABCD21E2F07D500391461 /* SortTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SortTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAABCD61E2F07D500391461 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		EBAABCD81E2F07D500391461 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		EBAABCD91E2F07D500391461 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		EBAABCDB1E2F07D500391461 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		EBAABCDC1E2F07D500391461 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		EBAABCDF1E2F07D500391461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EBAABCE11E2F07D500391461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EBAABCE41E2F07D500391461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EBAABCE61E2F07D500391461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBAABCEB1E2F07D500391461 /* SortTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SortTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAABCEF1E2F07D500391461 /* SortTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortTableViewTests.m; sourceTree = "<group>"; };
+		EBAABCF11E2F07D500391461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBAABCF61E2F07D500391461 /* SortTableViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SortTableViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBAABCFA1E2F07D500391461 /* SortTableViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SortTableViewUITests.m; sourceTree = "<group>"; };
+		EBAABCFC1E2F07D500391461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBAABD081E2F07EE00391461 /* SortTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SortTableView.h; sourceTree = "<group>"; };
+		EBAABD091E2F07EE00391461 /* SortTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SortTableView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EBAABCCF1E2F07D500391461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBAABCE81E2F07D500391461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBAABCF31E2F07D500391461 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EBAABCC91E2F07D500391461 = {
+			isa = PBXGroup;
+			children = (
+				EBAABCD41E2F07D500391461 /* SortTableView */,
+				EBAABCEE1E2F07D500391461 /* SortTableViewTests */,
+				EBAABCF91E2F07D500391461 /* SortTableViewUITests */,
+				EBAABCD31E2F07D500391461 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EBAABCD31E2F07D500391461 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EBAABCD21E2F07D500391461 /* SortTableView.app */,
+				EBAABCEB1E2F07D500391461 /* SortTableViewTests.xctest */,
+				EBAABCF61E2F07D500391461 /* SortTableViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EBAABCD41E2F07D500391461 /* SortTableView */ = {
+			isa = PBXGroup;
+			children = (
+				EBAABCD81E2F07D500391461 /* AppDelegate.h */,
+				EBAABCD91E2F07D500391461 /* AppDelegate.m */,
+				EBAABCDB1E2F07D500391461 /* ViewController.h */,
+				EBAABCDC1E2F07D500391461 /* ViewController.m */,
+				EBAABCDE1E2F07D500391461 /* Main.storyboard */,
+				EBAABCE11E2F07D500391461 /* Assets.xcassets */,
+				EBAABCE31E2F07D500391461 /* LaunchScreen.storyboard */,
+				EBAABCE61E2F07D500391461 /* Info.plist */,
+				EBAABCD51E2F07D500391461 /* Supporting Files */,
+				EBAABD081E2F07EE00391461 /* SortTableView.h */,
+				EBAABD091E2F07EE00391461 /* SortTableView.m */,
+			);
+			path = SortTableView;
+			sourceTree = "<group>";
+		};
+		EBAABCD51E2F07D500391461 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				EBAABCD61E2F07D500391461 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		EBAABCEE1E2F07D500391461 /* SortTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EBAABCEF1E2F07D500391461 /* SortTableViewTests.m */,
+				EBAABCF11E2F07D500391461 /* Info.plist */,
+			);
+			path = SortTableViewTests;
+			sourceTree = "<group>";
+		};
+		EBAABCF91E2F07D500391461 /* SortTableViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EBAABCFA1E2F07D500391461 /* SortTableViewUITests.m */,
+				EBAABCFC1E2F07D500391461 /* Info.plist */,
+			);
+			path = SortTableViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EBAABCD11E2F07D500391461 /* SortTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBAABCFF1E2F07D500391461 /* Build configuration list for PBXNativeTarget "SortTableView" */;
+			buildPhases = (
+				EBAABCCE1E2F07D500391461 /* Sources */,
+				EBAABCCF1E2F07D500391461 /* Frameworks */,
+				EBAABCD01E2F07D500391461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SortTableView;
+			productName = SortTableView;
+			productReference = EBAABCD21E2F07D500391461 /* SortTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EBAABCEA1E2F07D500391461 /* SortTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBAABD021E2F07D500391461 /* Build configuration list for PBXNativeTarget "SortTableViewTests" */;
+			buildPhases = (
+				EBAABCE71E2F07D500391461 /* Sources */,
+				EBAABCE81E2F07D500391461 /* Frameworks */,
+				EBAABCE91E2F07D500391461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBAABCED1E2F07D500391461 /* PBXTargetDependency */,
+			);
+			name = SortTableViewTests;
+			productName = SortTableViewTests;
+			productReference = EBAABCEB1E2F07D500391461 /* SortTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EBAABCF51E2F07D500391461 /* SortTableViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBAABD051E2F07D500391461 /* Build configuration list for PBXNativeTarget "SortTableViewUITests" */;
+			buildPhases = (
+				EBAABCF21E2F07D500391461 /* Sources */,
+				EBAABCF31E2F07D500391461 /* Frameworks */,
+				EBAABCF41E2F07D500391461 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EBAABCF81E2F07D500391461 /* PBXTargetDependency */,
+			);
+			name = SortTableViewUITests;
+			productName = SortTableViewUITests;
+			productReference = EBAABCF61E2F07D500391461 /* SortTableViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EBAABCCA1E2F07D500391461 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Zhuang Xiaowei";
+				TargetAttributes = {
+					EBAABCD11E2F07D500391461 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZC726AK722;
+						ProvisioningStyle = Automatic;
+					};
+					EBAABCEA1E2F07D500391461 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZC726AK722;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EBAABCD11E2F07D500391461;
+					};
+					EBAABCF51E2F07D500391461 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = ZC726AK722;
+						ProvisioningStyle = Automatic;
+						TestTargetID = EBAABCD11E2F07D500391461;
+					};
+				};
+			};
+			buildConfigurationList = EBAABCCD1E2F07D500391461 /* Build configuration list for PBXProject "SortTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EBAABCC91E2F07D500391461;
+			productRefGroup = EBAABCD31E2F07D500391461 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EBAABCD11E2F07D500391461 /* SortTableView */,
+				EBAABCEA1E2F07D500391461 /* SortTableViewTests */,
+				EBAABCF51E2F07D500391461 /* SortTableViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EBAABCD01E2F07D500391461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAABCE51E2F07D500391461 /* LaunchScreen.storyboard in Resources */,
+				EBAABCE21E2F07D500391461 /* Assets.xcassets in Resources */,
+				EBAABCE01E2F07D500391461 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBAABCE91E2F07D500391461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBAABCF41E2F07D500391461 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EBAABCCE1E2F07D500391461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAABCDD1E2F07D500391461 /* ViewController.m in Sources */,
+				EBAABD0A1E2F07EE00391461 /* SortTableView.m in Sources */,
+				EBAABCDA1E2F07D500391461 /* AppDelegate.m in Sources */,
+				EBAABCD71E2F07D500391461 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBAABCE71E2F07D500391461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAABCF01E2F07D500391461 /* SortTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EBAABCF21E2F07D500391461 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EBAABCFB1E2F07D500391461 /* SortTableViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EBAABCED1E2F07D500391461 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBAABCD11E2F07D500391461 /* SortTableView */;
+			targetProxy = EBAABCEC1E2F07D500391461 /* PBXContainerItemProxy */;
+		};
+		EBAABCF81E2F07D500391461 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EBAABCD11E2F07D500391461 /* SortTableView */;
+			targetProxy = EBAABCF71E2F07D500391461 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EBAABCDE1E2F07D500391461 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBAABCDF1E2F07D500391461 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EBAABCE31E2F07D500391461 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EBAABCE41E2F07D500391461 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EBAABCFD1E2F07D500391461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EBAABCFE1E2F07D500391461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EBAABD001E2F07D500391461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZC726AK722;
+				INFOPLIST_FILE = SortTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.tools.SortTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EBAABD011E2F07D500391461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = ZC726AK722;
+				INFOPLIST_FILE = SortTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.tools.SortTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EBAABD031E2F07D500391461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZC726AK722;
+				INFOPLIST_FILE = SortTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.tools.SortTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SortTableView.app/SortTableView";
+			};
+			name = Debug;
+		};
+		EBAABD041E2F07D500391461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = ZC726AK722;
+				INFOPLIST_FILE = SortTableViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.tools.SortTableViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SortTableView.app/SortTableView";
+			};
+			name = Release;
+		};
+		EBAABD061E2F07D500391461 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZC726AK722;
+				INFOPLIST_FILE = SortTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.tools.SortTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SortTableView;
+			};
+			name = Debug;
+		};
+		EBAABD071E2F07D500391461 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = ZC726AK722;
+				INFOPLIST_FILE = SortTableViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.kevin.tools.SortTableViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SortTableView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EBAABCCD1E2F07D500391461 /* Build configuration list for PBXProject "SortTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAABCFD1E2F07D500391461 /* Debug */,
+				EBAABCFE1E2F07D500391461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBAABCFF1E2F07D500391461 /* Build configuration list for PBXNativeTarget "SortTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAABD001E2F07D500391461 /* Debug */,
+				EBAABD011E2F07D500391461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBAABD021E2F07D500391461 /* Build configuration list for PBXNativeTarget "SortTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAABD031E2F07D500391461 /* Debug */,
+				EBAABD041E2F07D500391461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EBAABD051E2F07D500391461 /* Build configuration list for PBXNativeTarget "SortTableViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EBAABD061E2F07D500391461 /* Debug */,
+				EBAABD071E2F07D500391461 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EBAABCCA1E2F07D500391461 /* Project object */;
+}
