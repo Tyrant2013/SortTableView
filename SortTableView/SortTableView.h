@@ -12,8 +12,9 @@
 
 @protocol SortTableViewDelegate <NSObject>
 
-- (void)tableView:(ALSortTableView *)tableView willBeginMoveAtIndexPath:(NSIndexPath *)indexPath;
+- (void)tableView:(SortTableView *)tableView willBeginMoveAtIndexPath:(NSIndexPath *)indexPath;
 - (void)tableView:(SortTableView *)tableView moveAtIndexPath:(NSIndexPath *)indexPath toIndexPath:(NSIndexPath *)toIndexPath;
+- (void)tableView:(SortTableView *)tableView didEndMoveCell:(BOOL)completion;
 
 @end
 

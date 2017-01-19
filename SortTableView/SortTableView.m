@@ -126,6 +126,9 @@
         }
         _movingIndexPath = nil;
         _beginIndexPath = nil;
+        if ([((NSObject *)self.moveDelegate) respondsToSelector:@selector(tableView:didEndMoveCell:)]) {
+            [self.moveDelegate tableView:self didEndMoveCell:YES];
+        }
     }];
 }
 
