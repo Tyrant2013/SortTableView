@@ -129,6 +129,8 @@
         if ([((NSObject *)self.moveDelegate) respondsToSelector:@selector(tableView:didEndMoveCell:)]) {
             [self.moveDelegate tableView:self didEndMoveCell:YES];
         }
+        /// 当修改过Cell里面的AutoLayout属性的时候，第一次移动是可以截到图的，第二次就会截到一个EmptySnapShot，刷新一下页面就不会了
+        [self reloadData];
     }];
 }
 
