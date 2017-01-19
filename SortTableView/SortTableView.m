@@ -104,7 +104,7 @@
     locationPoint.x += _centerOffsetX;
     _movingView.center = locationPoint;
     NSIndexPath *indexPath = [self indexPathForRowAtPoint:locationPoint];
-    if (indexPath != _movingIndexPath) {
+    if (indexPath && indexPath != _movingIndexPath) {
         [self moveRowAtIndexPath:_movingIndexPath toIndexPath:indexPath];
         _movingIndexPath = indexPath;
     }
